@@ -7,14 +7,14 @@
     <title></title>
 </head>
 <body>
-    <button class="tablink" onclick="openPage('Home', this, '#87C232')" id="defaultOpen">Home</button>
-    <button class="tablink" onclick="openPage('Shop', this, '#87C232')">Shop</button>
-    <button class="tablink" onclick="openPage('Profile', this, '#87C232')">Profile</button>
-    <button class="tablink" onclick="openPage('About', this, '#87C232')">About</button>
+    <button class="tablink" onclick="openPage('Home', this, '#87C232')" id="defaultOpen">главная</button>
+    <button class="tablink" onclick="openPage('Shop', this, '#87C232')">магазинчик</button>
+    <button class="tablink" onclick="openPage('Profile', this, '#87C232')">профись с баллами</button>
+    <button class="tablink" onclick="openPage('About', this, '#87C232')">общая миссия</button>
 
     <div id="Home" class="tabcontent">
-        <h3>Home</h3>
-        <p>Home is where the heart is..</p>
+        <h3>главная</h3>
+        <p>здесь будет основная информация об экомифи</p>
         <!--<div class="scroll-container">
             <img src="eco1.jpeg" alt="Cinque Terre">
             <img src="eco2.jpeg" alt="Forest">
@@ -50,18 +50,21 @@
     </div>
 
     <div id="Shop" class="tabcontent">
-        <h3>Shop</h3>
-        <p>Some news this fine day!</p>
+        <h3>магазинчик</h3>
+        <p>здесь можно будет выбирать на что обменивать баллы</p>
     </div>
 
     <div id="Profile" class="tabcontent">
-        <h3>Profile</h3>
-        <p>Get in touch, or swing by for a cup of coffee.</p>
+        <h3>профиль</h3>
+        <p>здесь будут отображаться баллы каждого</p>
     </div>
 
     <div id="About" class="tabcontent">
-        <h3>About</h3>
-        <p>Who we are and what we do.</p>
+        <h3>общая миссия</h3>
+        <p>тут будет статистика сбора мукулатуры</p>
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
     </div>
     <link rel="stylesheet" type="text/css" href="CSSFile.css" />
     <script src="JSFile.js"></script>

@@ -31,19 +31,19 @@ body, html {
 }
 
 #Home {
-    background-color: #2C2C2C;
+    background-color: white;
 }
 
 #Shop {
-    background-color: #2C2C2C;
+    background-color: white;
 }
 
 #Profile {
-    background-color: #2C2C2C;
+    background-color: white;
 }
 
 #About {
-    background-color: #2C2C2C;
+    background-color: white;
 }
 
 /*    div.scroll-container {
@@ -101,4 +101,14 @@ div.scroll-container img {
     width: 50px;
     cursor: pointer;
     margin: 40px;
+}
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 5%;
+  height: 30px;
+  background-color: #87C232;
 }
