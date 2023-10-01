@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="CSSFile.css" />
+    <title>Link CSS to HTML</title>
+    <title></title>
+</head>
+<body>
+    <button class="tablink" onclick="openPage('Home', this, '#87C232')">Home</button>
+    <button class="tablink" onclick="openPage('News', this, '#87C232')" id="defaultOpen">Shop</button>
+    <button class="tablink" onclick="openPage('Contact', this, '#87C232')">Profile</button>
+    <button class="tablink" onclick="openPage('About', this, '#87C232')">About</button>
+
+    <div id="Home" class="tabcontent">
+        <h3>Home</h3>
+        <p>Home is where the heart is..</p>
+        <!--<div class="scroll-container">
+            <img src="eco1.jpeg" alt="Cinque Terre">
+            <img src="eco2.jpeg" alt="Forest">
+            <img src="eco3.jpeg" alt="Northern Lights">
+            <img src="eco4.jpeg" alt="Mountains">
+        </div>-->
+        <div class="gallery-wrap">
+            <img src="b.png" id="backBtn">
+            <div class="gallery">
+                <div>
+                    <span><img src="eco1.jpeg" alt="e"></span>
+                    <span><img src="eco1.jpeg" alt="e"></span>
+                    <span><img src="eco1.jpeg" alt="e"></span>
+                </div>
+                <div>
+                    <span><img src="eco4.jpeg" alt="e"></span>
+                    <span><img src="eco4.jpeg" alt="e"></span>
+                    <span><img src="eco4.jpeg" alt="e"></span>
+                </div>
+                <div>
+                    <span><img src="eco3.jpeg" alt="e"></span>
+                    <span><img src="eco3.jpeg" alt="e"></span>
+                    <span><img src="eco3.jpeg" alt="e"></span>
+                </div>
+                <div>
+                    <span><img src="eco2.jpeg" alt="e"></span>
+                    <span><img src="eco2.jpeg" alt="e"></span>
+                    <span><img src="eco2.jpeg" alt="e"></span>
+                </div>
+            </div>
+            <img src="n.png" id="nextBtn">
+        </div>
+    </div>
+
+    <div id="News" class="tabcontent">
+        <h3>News</h3>
+        <p>Some news this fine day!</p>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+        <h3>Contact</h3>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+    </div>
+    <link rel="stylesheet" type="text/css" href="CSSFile.css" />
+    <script src="JSFile.js"></script>
+</body>
+</html>
