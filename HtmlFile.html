@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="CSSFile.css" />
+    <title>Link CSS to HTML</title>
+    <title></title>
+</head>
+<body>
+    <button class="tablink" onclick="openPage('Home', this, '#87C232')" id="defaultOpen">главная</button>
+    <button class="tablink" onclick="openPage('Shop', this, '#87C232')">магазинчик</button>
+    <button class="tablink" onclick="openPage('Profile', this, '#87C232')">профись с баллами</button>
+    <button class="tablink" onclick="openPage('About', this, '#87C232')">общая миссия</button>
+
+    <div id="Home" class="tabcontent">
+        <h3>главная</h3>
+        <p>здесь будет основная информация об экомифи</p>
+        <!--<div class="scroll-container">
+            <img src="eco1.jpeg" alt="Cinque Terre">
+            <img src="eco2.jpeg" alt="Forest">
+            <img src="eco3.jpeg" alt="Northern Lights">
+            <img src="eco4.jpeg" alt="Mountains">
+        </div>-->
+        <div class="gallery-wrap">
+            <img src="b.png" id="backBtn">
+            <div class="gallery">
+                <div>
+                    <span><img src="eco1.jpeg" alt="e"></span>
+                    <span><img src="eco1.jpeg" alt="e"></span>
+                    <span><img src="eco1.jpeg" alt="e"></span>
+                </div>
+                <div>
+                    <span><img src="eco4.jpeg" alt="e"></span>
+                    <span><img src="eco4.jpeg" alt="e"></span>
+                    <span><img src="eco4.jpeg" alt="e"></span>
+                </div>
+                <div>
+                    <span><img src="eco3.jpeg" alt="e"></span>
+                    <span><img src="eco3.jpeg" alt="e"></span>
+                    <span><img src="eco3.jpeg" alt="e"></span>
+                </div>
+                <div>
+                    <span><img src="eco2.jpeg" alt="e"></span>
+                    <span><img src="eco2.jpeg" alt="e"></span>
+                    <span><img src="eco2.jpeg" alt="e"></span>
+                </div>
+            </div>
+            <img src="n.png" id="nextBtn">
+        </div>
+    </div>
+
+    <div id="Shop" class="tabcontent">
+        <h3>магазинчик</h3>
+        <p>здесь можно будет выбирать на что обменивать баллы</p>
+        <div class="shop">
+            <a target="_blank" href="img_5terre.jpg">
+              <img src="eco1.jpeg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+          
+          <div class="shop">
+            <a target="_blank" href="img_forest.jpg">
+              <img src="shopper.jpg" alt="Forest" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+          
+          <div class="shop">
+            <a target="_blank" href="img_lights.jpg">
+              <img src="tshirt.jpg" alt="Northern Lights" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+          
+          <div class="shop">
+            <a target="_blank" href="img_mountains.jpg">
+              <img src="shopper.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+    </div>
+
+    <div id="Profile" class="tabcontent">
+        <h3>профиль</h3>
+        <p>здесь будут отображаться баллы каждого</p>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h3>общая миссия</h3>
+        <p>тут будет статистика сбора мукулатуры</p>
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="CSSFile.css" />
+    <script src="JSFile.js"></script>
+</body>
+</html>
