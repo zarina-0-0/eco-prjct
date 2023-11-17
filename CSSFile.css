@@ -97,7 +97,13 @@ div.scroll-container img {
     transform:scale(1.1);
 
 }
+.gallery-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100% auto;
 
+}
 #backBtn, #nextBtn {
     width: 50px;
     cursor: pointer;
