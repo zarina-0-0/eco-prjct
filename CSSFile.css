@@ -78,7 +78,7 @@ div.scroll-container img {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
-    padding: 10px;
+    padding: 100px;
     flex: none;
 }
 .gallery div img{
