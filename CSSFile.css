@@ -1,9 +1,11 @@
 ﻿/* Set height of body and the document to 100% to enable "full page tabs" */
 
-h1{
+h1 {
   text-align: center;
 }
-
+#icon {
+  width: 50px;
+}
 body, html {
     height: 100%;
     margin: 0;
