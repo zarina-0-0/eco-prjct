@@ -26,11 +26,16 @@ color: #87C232;
 text-transform: uppercase;
 }
 
+.headerlogo{
+  right: 10px;
+  top: 2.5px;
+  bottom: 2.5px;
+}
+
 /* Style tab links */
 .tablink {
     background-color: #222629;
     color: white;
-    float: left;
     border: none;
     outline: none;
     cursor: pointer;
