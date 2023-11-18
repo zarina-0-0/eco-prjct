@@ -7,9 +7,7 @@ h1 {
   text-transform: uppercase;
   font-size: 40;
 }
-#the_icon {
-  width: 10%;
-}
+
 body, html {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
     height: 100%;
@@ -18,12 +16,15 @@ body, html {
   }
   header{
     background-color:#222629;
-    height: 120px;
+    height: 100px;
   }
+
 .ECO{
 font-size: 40;
 color: #87C232;
+text-transform: uppercase;
 }
+
 /* Style tab links */
 .tablink {
     background-color: #222629;
