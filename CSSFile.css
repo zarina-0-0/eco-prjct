@@ -2,9 +2,10 @@
 
 h1 {
   text-align: center;
-  color:#87C232;
+  color:#2C2C2C;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  font-size: 40;
 }
 #the_icon {
   width: 10%;
@@ -19,7 +20,10 @@ body, html {
     background-color:#2C2C2C;
     height: 100px;
   }
-
+.ECO{
+font-size: 40;
+color: #87C232;
+}
 /* Style tab links */
 .tablink {
     background-color: #2C2C2C;
