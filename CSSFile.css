@@ -2,11 +2,15 @@
 
 h1 {
   text-align: center;
+  color:#87C232;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 #icon {
   width: 50px;
 }
 body, html {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
     height: 100%;
     margin: 0;
     font-family: Arial;
