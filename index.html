@@ -8,22 +8,21 @@
     <title>ECOMEPHI</title>
 </head>
 <body>
-  <header>
-    <button onclick="openPage('Home', this, '#87C232')"><img id="the_icon" src="360*360 white with back.png alt="icon"></button>
-    <button class="tablink" onclick="openPage('Home', this, '#87C232')" id="defaultOpen">главная</button>
-    <button class="tablink" onclick="openPage('Shop', this, '#87C232')">магазинчик</button>
-   <!---<button class="tablink" onclick="openPage('Profile', this, '#87C232')">профись с баллами</button>--->
-    <button class="tablink" onclick="openPage('About', this, '#87C232')">общая миссия</button>
+  <header >
+
+    <nav>
+      <button class="tablink" onclick="openPage('Home', this, '#87C232')" id="defaultOpen">главная</button>
+      <button class="tablink" onclick="openPage('Shop', this, '#87C232')">магазинчик</button>
+     <!---<button class="tablink" onclick="openPage('Profile', this, '#87C232')">профись с баллами</button>--->
+      <button class="tablink" onclick="openPage('About', this, '#87C232')">общая миссия</button>
+    </nav>
+
   </header>
+
+  <main>
     <div id="Home" class="tabcontent">
       <h1>ЭкоМИФИ</h1>
         <p>здесь будет основная информация об экомифи</p>
-        <!--<div class="scroll-container">
-            <img src="eco1.jpeg" alt="Cinque Terre">
-            <img src="eco2.jpeg" alt="Forest">
-            <img src="eco3.jpeg" alt="Northern Lights">
-            <img src="eco4.jpeg" alt="Mountains">
-        </div>-->
         <div class="gallery-wrap">
             <img src="b.png" id="backBtn">
             <div class="gallery">
@@ -52,6 +51,11 @@
         </div>
     </div>
 
+    <footer></footer>
+
+  </main>
+
+  <main>
     <div id="Shop" class="tabcontent">
         <h3>магазинчик</h3>
         <p>здесь можно будет выбирать на что обменивать баллы</p>
@@ -83,12 +87,13 @@
             <div class="desc">Add a description of the image here</div>
           </div>
         </div>
-
+      </main>
     <!---<div id="Profile" class="tabcontent">
         <h3>профиль</h3>
         <p>здесь будут отображаться баллы каждого</p>
     </div>--->
 
+<main>
     <div id="About" class="tabcontent">
         <h3>общая миссия</h3>
         <p>тут будет статистика сбора мукулатуры</p>
@@ -96,6 +101,7 @@
             <div id="myBar"></div>
         </div>
     </div>
+  </main>
     <link rel="stylesheet" type="text/css" href="CSSFile.css" />
     <script src="JSFile.js"></script>
 </body>
