@@ -25,11 +25,13 @@ font-size: 40;
 color: #87C232;
 text-transform: uppercase;
 }
+.ECO1{
+  font-size: 40;
+  color:#222629;
+  text-transform: uppercase;
+  }
 
 .headerlogo{
-  right: 10px;
-  top: 2.5px;
-  bottom: 2.5px;
 }
 
 .headertext{
