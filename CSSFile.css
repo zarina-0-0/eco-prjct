@@ -19,6 +19,13 @@ body, html {
     background-color:#87C232;
     height: 100px;
   }
+  main{
+    background-color: #222629;
+  }
+  footer{
+    background-color:#87C232;
+    height: 100px;
+  }
 
 .ECO{
 font-size: 40;
