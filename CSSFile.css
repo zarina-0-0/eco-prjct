@@ -32,6 +32,11 @@ text-transform: uppercase;
   bottom: 2.5px;
 }
 
+.headertext{
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
 /* Style tab links */
 .tablink {
     color: white;
