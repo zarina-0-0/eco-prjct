@@ -121,33 +121,33 @@
   <main>
     <div id="Shop" class="tabcontent">
       <h1><span class="ECO">эко</span>shop</h1>
-        <p>здесь можно будет выбирать на что обменивать баллы</p>
+      <p id="mainpagetext">Здесь ты можешь выбрать на что обменять экопоинты</p>
         <div class="shop">
             <a target="_blank" href="eco1.jpeg">
-              <img src="eco1.jpeg" alt="бутылочка" width="600" height="400">
+              <img id="photo" src="eco1.jpeg" alt="бутылочка" height="400">
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">бутылка <span class="points">200 ep</span></div>
           </div>
           
           <div class="shop">
             <a target="_blank" href="shopper.jpg">
-              <img src="shopper.jpg" alt="шоппер" width="600" height="400">
+              <img id="photo" src="shopper.jpg" alt="шоппер" height="400">
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">шопер <span class="points">600 ep</span></div>
           </div>
           
           <div class="shop">
             <a target="_blank" href="tshirt.jpg">
-              <img src="tshirt.jpg" alt="крутая футболка" width="600" height="400">
+              <img id="photo" src="tshirt.jpg" alt="крутая футболка" height="400">
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">футболка <span class="points">900 ep</span></div>
           </div>
           
           <div class="shop">
             <a target="_blank" href="shopper.jpg">
-              <img src="shopper.jpg" alt="супер шоппер" width="600" height="400">
+              <img id="photo" src="shopper.jpg" alt="супер шоппер" height="400">
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">шопер <span class="points">600 ep</div>
           </div>
         </div>
       </main>
@@ -155,14 +155,23 @@
 <main>
     <div id="About" class="tabcontent">
       <h1><span class="ECO">эко</span>mission</h1>
-        <p>тут будет статистика сбора мукулатуры</p>
-        <div id="myProgress">
-            <div id="myBar"></div>
-        </div>
+      <div class="dashboard">
+        <p id="progress">Макулатура</p>
+          <svg>
+          <circle class="bg" cx="57" cy="57" r="52" />
+          <circle class="meter-1" cx="57" cy="57" r="52" />
+        </svg>
+        <p id="progress">Батарейки</p>
+        <svg>
+          <circle class="bg" cx="57" cy="57" r="52" />
+          <circle class="meter-2" cx="57" cy="57" r="52" />
+        </svg>
+      </div>
+      </div>
     </div>
   </main>
     <link rel="stylesheet" type="text/css" href="CSSFile.css" />
     <script src="JSFile.js"></script>
 </body>
-<footer></footer>
+<footer><center><span id="footertext">© 2023 экомифи</span></center></footer>
 </html>
