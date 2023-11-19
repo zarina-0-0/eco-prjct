@@ -2,25 +2,38 @@
 
 h1 {
   text-align: center;
-  color:#222629;
+  color:white;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   font-size: 40;
 }
 
-body, html {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+body{
+   font-family: 'Roboto', Arial, Helvetica, sans-serif;
     height: 100%;
     margin: 0;
-    font-family: Arial;
-    background-color: #222629;
+    width: auto;
   }
-  header{
+  .header{
+    width: 100%;
     background-color:#87C232;
-    height: 100px;
+    height: 70px;
+    position: fixed;
   }
-  .buttons{
-    text-align: center;
+  .himage{
+    margin-top: 2.5px;
+    margin-left: 1%;
+    border: none;
+    color: none;
+    cursor: pointer;
+  }
+  .headertext{
+    margin-left: 0.8%;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color:white;
+    cursor: pointer;
   }
   main{
     background-color: #222629;
@@ -35,37 +48,32 @@ font-size: 40;
 color: #87C232;
 text-transform: uppercase;
 }
-.ECO1{
-  font-size: 40;
-  color:#222629;
-  text-transform: uppercase;
-  }
-
-.headerlogo{
-}
-
-.headertext{
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
 
 /* Style tab links */
 .tablink {
-    color: white;
-    cursor: pointer;
-    align-items: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding: 10px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 30%;
 }
-
-    .tablink:hover {
-        background-color:#222629;
-    }
+  .tablink:hover{
+    background-color:#222629;
+  }
+.buttons{
+  margin-left: 20%;
+}
+.buttonstext{
+  color: white;
+  font-size: 20px;
+  
+}
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-    color:#222629;
     display: none;
-    padding: 100px 20px;
+    padding: 70px;
     height: 100%;
 }
 
@@ -77,36 +85,7 @@ text-transform: uppercase;
     background-color: #222629;
 }
 
-/*#Profile {
-    background-color: white;
-}*/
-
 #About {
     background-color: #222629;
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-div.shop {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  div.shop:hover {
-    border: 1px solid #777;
-  }
-  
-  div.shop img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
