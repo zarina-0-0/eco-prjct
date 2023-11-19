@@ -9,6 +9,7 @@ h1 {
 }
 
 body{
+  color: #222629;
    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     height: 100%;
     margin: 0;
@@ -17,18 +18,22 @@ body{
   .header{
     width: 100%;
     background-color:#87C232;
-    height: 70px;
+    height: 80px;
     position: fixed;
   }
   .himage{
-    margin-top: 2.5px;
+    position: absolute;
+    margin-top: 7.5px;
     margin-left: 1%;
     border: none;
     color: none;
     cursor: pointer;
   }
   .headertext{
-    margin-left: 0.8%;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 6%;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -51,25 +56,32 @@ text-transform: uppercase;
 
 /* Style tab links */
 .tablink {
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  padding: 10px;
+  padding: 5px;
   cursor: pointer;
   transition-duration: 0.4s;
-  border-radius: 30%;
+  border-radius: 8px;
 }
   .tablink:hover{
     background-color:#222629;
   }
-.buttons{
-  margin-left: 20%;
-}
+
 .buttonstext{
   color: white;
   font-size: 20px;
-  
 }
-
+.buttons{
+  position: absolute;
+  top: 28px;
+  left: 80%;
+}
+.transparentbut{
+  background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
     display: none;
@@ -80,7 +92,424 @@ text-transform: uppercase;
 #Home {
     background-color:#222629;
 }
+#mainpagetext{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+  color: white;
+  text-align: center;
+}
+aside{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+  padding: 10px;
+  width: 30%;
+  color: white;
+  position: relative;
+  left: 63%;
+  outline: dashed #87C232;
+  position: relative;
+  top: 20px;
+  right: 0px;
+}
 
+.main-nav {
+  position: relative;
+  top: 300px;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 400px;
+}
+
+.main-nav1 {
+  position: relative;
+  top: -150px;
+  left: 25%;
+  /*transform: translate(-50%, -50%);*/
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 400px;
+}
+
+.main-nav2 {
+  position: relative;
+  top: -150px;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 400px;
+}
+
+.main-nav li {
+  list-style: none;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #000;
+  transition: 0.5s;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.main-nav li:hover {
+  opacity: 1;
+}
+
+.main-nav li.item1 {
+  top: 0;
+}
+
+.main-nav li.item2 {
+  top: 0px;
+  left: 100px;
+}
+
+.main-nav li.item3 {
+  top: 0;
+  left: 200px;
+}
+
+.main-nav li.item4 {
+  top: 100px;
+  left: 0;
+}
+
+.main-nav li.item5 {
+  top: 200px;
+  left: 0;
+}
+
+.main-nav li.item6 {
+  top: 300px;
+}
+
+.main-nav li.item7 {
+  top: 150px;
+  left: 100px;
+}
+
+.main-nav li.item8 {
+  top: 150px;
+  left: 200px;
+}
+
+.main-nav li.item9 {
+  top: 300px;
+  left: 100px;
+}
+
+.main-nav li.item10 {
+  top: 300px;
+  left: 200px;
+}
+
+.main-nav li .bg {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.1);
+}
+
+.main-nav li.item1 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item2 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item3 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item4 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item5 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item6 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item7 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item8 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item9 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav li.item10 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav1 li {
+  list-style: none;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #000;
+  transition: 0.5s;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.main-nav1 li:hover {
+  opacity: 1;
+}
+
+.main-nav1 li.item1 {
+  top: 0;
+}
+
+.main-nav1 li.item2 {
+  top: 0px;
+  left: 100px;
+}
+
+.main-nav1 li.item3 {
+  top: 0;
+  left: 200px;
+}
+
+.main-nav1 li.item4 {
+  top: 100px;
+  left: 0;
+}
+
+.main-nav1 li.item5 {
+  top: 200px;
+  left: 0;
+}
+
+.main-nav1 li.item6 {
+  top: 300px;
+}
+
+.main-nav1 li.item9 {
+  top: 300px;
+  left: 100px;
+}
+
+.main-nav1 li.item10 {
+  top: 300px;
+  left: 200px;
+}
+
+.main-nav1 li .bg {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.1);
+}
+
+.main-nav1 li.item1 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav1 li.item2 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav1 li.item3 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav1 li.item4 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav1 li.item5 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav1 li.item6 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav1 li.item9 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav1 li.item10 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.main-nav2 li {
+  list-style: none;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #000;
+  transition: 0.5s;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.main-nav2 li:hover {
+  opacity: 1;
+}
+
+.main-nav2 li.item1 {
+  top: 0;
+}
+
+.main-nav2 li.item2 {
+  top: 0px;
+  left: 100px;
+}
+
+.main-nav2 li.item3 {
+  top: 0;
+  left: 200px;
+}
+
+.main-nav2 li.item4 {
+  top: 100px;
+  left: 0;
+}
+
+.main-nav2 li.item5 {
+  top: 200px;
+  left: 0;
+}
+
+.main-nav2 li.item6 {
+  top: 300px;
+}
+
+.main-nav2 li.item7 {
+  top: 100px;
+  left: 200px;
+}
+
+.main-nav2 li.item8 {
+  top: 200px;
+  left: 200px;
+}
+
+.main-nav2 li.item9 {
+  top: 300px;
+  left: 100px;
+}
+
+.main-nav2 li.item10 {
+  top: 300px;
+  left: 200px;
+}
+
+.main-nav2 li .bg {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.1);
+}
+
+.main-nav2 li.item1 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav2 li.item2 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav2 li.item3 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav2 li.item4 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav2 li.item5 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav2 li.item6 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav2 li.item7 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav2 li.item8 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav2 li.item9 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav2 li.item10 .bg {
+  background: url(eco1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
 #Shop {
     background-color: #222629;
 }
